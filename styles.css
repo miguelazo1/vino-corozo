@@ -1,7 +1,16 @@
 
-html{
-    margin-left: 340px;
-    width: 800px;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+body{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    
+    
+    background-color:#dbd3c3 ;
 }
 .logo{
     
@@ -46,4 +55,59 @@ ul li:last-child{
     width: 50px;
     height: 50px;
 
+}
+.d-h2{
+    width: 100%;
+    height: 200px;
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #8c344c;
+
+    
+}
+h2{
+    
+    
+    
+    
+    font-size: 60px;
+    
+    margin: 0;
+    border: 0;
+    padding: 0;
+    
+}
+
+.qsomos{
+    align-items: center;
+    
+}
+h3{
+    
+}
+.pblog{
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+}
+.imgblog{
+    float: left;
+    width: 50%;
+    height: auto;
+    margin-right: 0;
+}
+.cardblog{
+    width: 100%;
+    clear: both;
+}
+.cardblo1{
+    width: 100%;
+    clear: both;
+}
+.img-conocenos{
+    border:0;
+    padding: 0;
+    width: 100%;
 }
